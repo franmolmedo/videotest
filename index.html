@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Prueba video</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+      html,
+      body {
+        height: 100vh;
+        margin: 0;
+        padding: 0
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+      .header-menu,
+      footer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+      }
+      .header-menu {
+        height: 60px;
+        background: #1c87c9;
+        color: #fff;
+      }
+      h2 {
+        margin: 0 0 8px;
+      }
+      section {
+        flex: 1;
+      }
+      footer {
+        background: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-menu">
+    </header>
+    <section>
+      <article>
+        <header>
+          <h2>Reproducción de video</h2>
+          <small>Utilizando el tag "video"</small>
+        </header>
+        <video width="480" height="852" controls>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.webm" type="video/webm">
+          Tu navegador no soporta el tag video de HTML5
+        </video>
+      </article>
+    <footer>
+      <small>2021</small>
+    </footer>
+  </body>
+</html>
